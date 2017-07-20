@@ -15,6 +15,8 @@
 		C1051B541F214B5900EF521A /* ColorNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1051B531F214B5900EF521A /* ColorNavigationTests.swift */; };
 		C1051B5F1F214B5900EF521A /* ColorNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1051B5E1F214B5900EF521A /* ColorNavigationUITests.swift */; };
 		C1051B6D1F214BBE00EF521A /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1051B6C1F214BBE00EF521A /* ColorsViewController.swift */; };
+		C1051B6F1F214F5D00EF521A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1051B6E1F214F5D00EF521A /* Color.swift */; };
+		C1051B711F2158CF00EF521A /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1051B701F2158CF00EF521A /* ColorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C1051B5E1F214B5900EF521A /* ColorNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorNavigationUITests.swift; sourceTree = "<group>"; };
 		C1051B601F214B5900EF521A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1051B6C1F214BBE00EF521A /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorsViewController.swift; path = ../ColorsViewController.swift; sourceTree = "<group>"; };
+		C1051B6E1F214F5D00EF521A /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C1051B701F2158CF00EF521A /* ColorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				C1051B6C1F214BBE00EF521A /* ColorsViewController.swift */,
+				C1051B701F2158CF00EF521A /* ColorDetailViewController.swift */,
+				C1051B6E1F214F5D00EF521A /* Color.swift */,
 				C1051B3B1F214B5900EF521A /* AppDelegate.swift */,
 				C1051B3F1F214B5900EF521A /* Main.storyboard */,
 				C1051B451F214B5900EF521A /* Assets.xcassets */,
@@ -266,7 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1051B441F214B5900EF521A /* ColorNavigation.xcdatamodeld in Sources */,
+				C1051B6F1F214F5D00EF521A /* Color.swift in Sources */,
 				C1051B6D1F214BBE00EF521A /* ColorsViewController.swift in Sources */,
+				C1051B711F2158CF00EF521A /* ColorDetailViewController.swift in Sources */,
 				C1051B3C1F214B5900EF521A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
